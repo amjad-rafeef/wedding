@@ -739,8 +739,8 @@ body.modal-open {
 }
 
 #mypic {
-  object-fit: scale-down;
-  background-size: contain;
+  /* object-fit: scale-down; */
+  /* background-size: contain; */
   height: 150%;
   width: 100%;
 }
