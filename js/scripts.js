@@ -184,7 +184,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Nader and Aya's Wedding",
+            title: "Amjad and Rafeef's Wedding",
 
             // Event start date
             start: new Date('Jun 30, 2022 08:30'),
