@@ -129,7 +129,8 @@
         var result = document.createElement('div');
 
         result.innerHTML = '<label id="add-to-calendar-label" for="checkbox-for-' +
-            calendarId + '" class="btn btn-fill btn-small"><i class="fa fa-calendar"></i>&nbsp;&nbsp; Add to Calendar</label>';
+            calendarId + '" class="btn btn-fill btn-small"><i class="fa fa-calendar"></i>&nbsp;&nbsp; Add to Calendar</label>' + '<label id="add-to-instagram-label"' +
+                 '" class="btn btn-fill btn-small"><i class="fa fa-instagram"><a style="color:white;" href="https://www.instagram.com/ar/994719397714937/" target="_blank">Add Instagram filter</a></i></label>';
         result.innerHTML += '<input name="add-to-calendar-checkbox" class="add-to-calendar-checkbox" id="checkbox-for-' + calendarId + '" type="checkbox">';
 
         Object.keys(calendars).forEach(function(services) {
