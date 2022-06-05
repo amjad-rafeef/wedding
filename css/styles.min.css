@@ -533,6 +533,10 @@ header .member-actions {
 .blog figcaption a.blog-post-title:hover,.blog figcaption a.blog-post-title:focus {
     color: #3D4351}
 #instagram img {
+    /* height:5 */
+    /* vertical-align: middle; */
+    /* width: 50px; */
+    /* height: 500px; */
     width: 100%}
 #eng-pics img {
     width: 100%;
@@ -732,4 +736,53 @@ body.modal-open {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#mypic {
+  object-fit: scale-down;
+  background-size: contain;
+  height: 150%;
+  width: 100%;
+}
+
+.countdown {
+  background-color: #ecdebb;
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
 }
